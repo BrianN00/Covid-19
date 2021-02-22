@@ -1,0 +1,164 @@
+.c-line{
+  width: 100%;
+  border-bottom: 5px solid $color-darkblue;
+  box-shadow: 0px -20px 40px 0.2px black;
+  background-color: $color-white;
+}
+.c-nav-row {
+  height: 150px;
+  align-content: center;
+  transition: all 0.2s ease-in-out;
+
+
+  .header--active &{
+    height: 60px;
+  }
+}
+
+.c-logo {
+
+  max-width: 328px;
+  width: 200px;
+  padding-right: 5%;
+
+  @include media-breakpoint-down(xs) {
+    font-size: 3.1rem;
+  }
+
+  .header--active &{
+    font-size: 3rem;
+  }
+
+
+
+  &:hover,
+  &:active,
+  &:visited {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.c-nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 1rem;
+  height: 100%;
+  align-content: center;
+  margin-bottom: 0;
+
+
+
+  &__items {
+    max-width: 673px;
+    font-size: 19px;
+  }
+  &__logo {
+    max-width: 328px;
+  }
+
+  @include media-breakpoint-down(md){
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(black, 0.75);
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 80px;
+    text-align: center;
+    transform: translateX(300px);
+    transition: transform 0.5s ease;
+  }
+
+}
+
+.c-nav__item{
+  @include media-breakpoint-down(md){
+    margin-bottom: 25px;
+  }
+}
+
+.c-nav__bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  z-index: 1;
+
+  @include media-breakpoint-down (md){
+    align-items: flex-end;
+  }
+ }
+
+.c-nav__toggle {
+  display: none;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+
+  @include media-breakpoint-down (md){
+    display: block;
+  }
+  &:checked ~ .c-nav__bar{
+    background-color: $color-white;
+  }
+
+  &:checked ~ .c-nav__bar--1{
+    transform: rotate(45deg) translate(-3px, -1px);
+    background-color: $color-white;
+  }
+  &:checked ~ .c-nav__bar--2{
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2);
+  }
+  &:checked ~ .c-nav__bar--3{
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  &:checked ~ .c-nav {
+    transform: none;
+  }
+}
+
+.c-nav__bar{
+  width: 30px;
+  height: 2px;
+  background-color: $color-darkblue;
+  border-radius: 3px;
+  // display: block;
+  margin-bottom: 5px;
+  display: none;
+  z-index: 1;
+  position: relative;
+  transition: all 0.5s ease;
+  transform-origin: 5px 0px;
+  @include media-breakpoint-down (md){
+    display: inline-block;
+  }
+}
+
+.c-nav__bar--3{
+  transform-origin: 2% 100%;
+}
+
+.c-nav__link {
+  color: $color-blue;
+  font-weight: 700;
+  font-family: HelveticaNeuCondensedBold;
+  &:hover,
+  &:active,
+  &--active {
+    text-decoration: none;
+    color: $color-darkblue;
+  }
+  @include media-breakpoint-down(md){
+    color: $color-white;
+  }
+}
