@@ -1,0 +1,39 @@
+$color-white: #fff;
+$color-blue: #3279a6;
+$color-lightblue: #59b5d9;
+$color-darkblue: #094173;
+
+@font-face {
+  font-family: HelveticaNeuCondensedBold;
+  src: url(../helvetica-neue/HelveticaNeueBoldCondensed.ttf);
+}
+@font-face {
+  font-family: HelveticaNeueCyr-Roman;
+  src: url(../helvetica-neue/HelveticaNeueCyr-Roman.ttf);
+  
+}
+@font-face {
+  font-family: HelveticaNeuMedium;
+  src: url(../helvetica-neue/HelveticaNeueCyr-Medium.ttf);
+}
+
+$font-regular: HelveticaNeueCyr-Roman;
+$font-medium: HelveticaNeuMedium;
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1688px,
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1488px,
+) !default;
