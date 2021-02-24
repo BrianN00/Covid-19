@@ -9,6 +9,15 @@
 @import "objects";
 
 @import "bootstrap.override";
+
+@import "components.sidebar.scss";
+@import "components.home.scss";
+
+
+// components
+
+
 @import "component.nav.scss";
 @import "component.footer.scss";
-@import "components.sidebar.scss";
+
+@import "components.dropdown.scss";
