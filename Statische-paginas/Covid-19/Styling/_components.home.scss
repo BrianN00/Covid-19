@@ -26,14 +26,16 @@
     &__info{
         padding-left: 8rem;
         padding-right: 8rem;
-
-
-        
+        margin-bottom: 5rem;
         @include media-breakpoint-down(lg){
             padding-left: 5rem;
         }
         @include media-breakpoint-down(md){
             padding-left: 3rem;
+        }
+
+        &-graph{
+            padding-left: -2rem;
         }
     }
     

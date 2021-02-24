@@ -1,0 +1,31 @@
+.c-home__article{
+    color: $color-darkblue;
+    font-family: $font-bold;
+    background-color: white;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    width: 16rem;
+    height: 30rem;
+    margin-left: 1rem;
+    box-shadow: 0px 20px 40px 0.2px rgba(0, 0, 0, 0.384) ;
+    border-radius: 3px;
+    &-title{
+        padding-top: .3rem;
+        padding-bottom: 5rem;
+        font-size: 2rem;
+    }
+    &-name{
+        font-size: 1.5rem;
+        padding-bottom: -2rem;
+    }
+    &-number{
+        font-size: 3.5rem;
+        padding-bottom: 2rem;
+        margin-top: -1rem;
+        // font-weight: bolder;
+    }
+}
+
+.c-home__articletotal{
+    padding-bottom:5rem;
+}
