@@ -1,0 +1,16 @@
+.c-home{
+    &__info{
+        &-title{
+            padding-top: 6rem;
+            font-family:$font-bold ;
+            text-transform: uppercase;
+            color: $color-darkblue;
+        }
+        &-subtitle{
+            font-family:$font-bold ;
+            color: gray;
+            font-size: 1.6rem;
+        }
+    }
+}
+

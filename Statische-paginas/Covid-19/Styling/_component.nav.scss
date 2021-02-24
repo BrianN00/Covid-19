@@ -155,7 +155,7 @@
 .c-nav__link {
   color: $color-blue;
   font-weight: 700;
-  font-family: HelveticaNeuCondensedBold;
+  font-family: $font-bold;
   &:hover,
   &:active,
   &--active {

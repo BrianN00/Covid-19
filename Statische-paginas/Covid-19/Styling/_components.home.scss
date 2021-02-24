@@ -13,21 +13,28 @@
         justify-content: space-between;
         margin: 0 auto;
         padding: .3rem 1rem;
-        padding-left: 3rem;
+        padding-left: 8rem;
+        @include media-breakpoint-down(lg){
+            padding-left: 5rem;
+        }
+        @include media-breakpoint-down(md){
+            padding-left: 3rem;
+        }
     }
 
 
+    &__info{
+        padding-left: 8rem;
+        padding-right: 8rem;
+
+
+        
+        @include media-breakpoint-down(lg){
+            padding-left: 5rem;
+        }
+        @include media-breakpoint-down(md){
+            padding-left: 3rem;
+        }
+    }
     
 }
-ul.dropdown-menu.show{
-    // width: 220px;
-    // transform: translate3d(15px, 27px, 0px)!important;
-    @include media-breakpoint-down(lg){
-       width: 150px;     
-    }
-
-}
-// button.btn.btn-primary{
-//     // width: 220px!important;
-//     // padding:.1rem 2rem!important;
-// }
