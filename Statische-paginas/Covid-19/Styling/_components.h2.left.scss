@@ -1,0 +1,42 @@
+.c-h2{
+    padding-top: 3rem;
+    font-family: $font-bold;
+    color: $color-darkblue;
+    font-size: 1.8rem;
+    &__spacing{
+        
+    }
+    &__total{
+        position: absolute;
+        left: 0;
+        
+        padding-left: 12rem;
+        @include media-breakpoint-down(md) {
+            padding-left: 6rem;
+          }
+    }
+    &__line{
+        border: 3px solid  $color-lightblue;
+        width: 100%;
+        margin-top: 1rem;
+        position: absolute;
+        left:0;
+
+    }
+//     &__line{
+//         border: 3px solid  $color-lightblue;
+//         width: 36%;
+//         margin-top: 1rem;
+//         position: absolute;
+//         left: 0;
+//         @include media-breakpoint-down(lg) {
+//             width: 37%;
+//           }
+//           @include media-breakpoint-down(md) {
+//             width: 47%;
+//           }
+//           @include media-breakpoint-down(sm) {
+//             width: 69%;
+//           }
+//     }
+}

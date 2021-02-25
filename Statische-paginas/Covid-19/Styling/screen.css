@@ -12613,4 +12613,95 @@ ul.dropdown-menu.showli {
 .c-home__articletotal {
   padding-bottom: 5rem;
 }
+
+.c-over {
+  background-color: #FAFEFF;
+  font-family: HelveticaNeueCyr-Roman;
+  color: #094173;
+  height: 100rem;
+}
+
+.c-over__title-text {
+  font-family: HelveticaNeueCyr-Roman;
+  padding-top: 5rem;
+}
+
+.c-over__symptomen {
+  padding-left: 2rem;
+}
+
+.c-over__symptomen-belangrijkste {
+  padding-top: 4rem;
+  padding-left: 1.5rem;
+  margin-bottom: -3rem;
+}
+
+.c-over__symptomen-huisarts {
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+
+.c-over__symptomen-img {
+  max-width: 16rem;
+  max-height: 18rem;
+  margin-right: 10rem;
+  margin-top: 6rem;
+}
+
+.c-title {
+  padding-top: 5rem;
+  font-family: HelveticaNeuCondensedBold;
+  color: #094173;
+  font-size: 3rem;
+}
+
+.c-title__line {
+  border: 6px solid #59b5d9;
+  width: 1000rem;
+  margin-top: 1.5rem;
+  position: absolute;
+}
+
+.c-title__line-img {
+  position: absolute;
+  top: -5rem;
+  left: 60rem;
+}
+
+.c-h2 {
+  padding-top: 3rem;
+  font-family: HelveticaNeuCondensedBold;
+  color: #094173;
+  font-size: 1.8rem;
+}
+
+.c-h2__total {
+  position: absolute;
+  left: 0;
+  padding-left: 12rem;
+}
+
+@media (max-width: 991.98px) {
+  .c-h2__total {
+    padding-left: 6rem;
+  }
+}
+
+.c-h2__line {
+  border: 3px solid #59b5d9;
+  width: 100%;
+  margin-top: 1rem;
+  position: absolute;
+  left: 0;
+}
+
+.c-opsomming {
+  line-height: 2rem;
+  padding-top: 5rem;
+  color: #59b5d9;
+}
+
+.c-opsomming__img {
+  padding-right: 1rem;
+}
 /*# sourceMappingURL=screen.css.map */
