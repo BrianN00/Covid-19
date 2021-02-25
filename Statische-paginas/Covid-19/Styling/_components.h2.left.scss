@@ -3,16 +3,18 @@
     font-family: $font-bold;
     color: $color-darkblue;
     font-size: 1.8rem;
+    padding-left: 20rem;
     &__spacing{
-        
+        height: 90px;
+        position: relative;
     }
     &__total{
         position: absolute;
-        left: 0;
+        left: -32rem;
         
         padding-left: 12rem;
         @include media-breakpoint-down(md) {
-            padding-left: 6rem;
+            padding-left: -18rem;
           }
     }
     &__line{

@@ -12673,17 +12673,23 @@ ul.dropdown-menu.showli {
   font-family: HelveticaNeuCondensedBold;
   color: #094173;
   font-size: 1.8rem;
+  padding-left: 20rem;
+}
+
+.c-h2__spacing {
+  height: 90px;
+  position: relative;
 }
 
 .c-h2__total {
   position: absolute;
-  left: 0;
+  left: -32rem;
   padding-left: 12rem;
 }
 
 @media (max-width: 991.98px) {
   .c-h2__total {
-    padding-left: 6rem;
+    padding-left: -18rem;
   }
 }
 
