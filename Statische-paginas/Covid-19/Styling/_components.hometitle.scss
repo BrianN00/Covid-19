@@ -6,12 +6,37 @@
             text-transform: uppercase;
             color: $color-darkblue;
             font-size: 3.3rem;
+            @include media-breakpoint-down (md) {
+            font-size: 2.5rem;
+            padding-top: 5rem;
+            }
+            @include media-breakpoint-down (sm) {
+                font-size: 2.2rem;
+                padding-top: 4rem;
+            }
+            @include media-breakpoint-down (xs) {
+                font-size: 2rem;
+                padding-top: 3rem;
+            }
+            @media (max-width: 425px) {
+                font-size: 1.7rem;
+                width: 20rem;
+            }
         }
         &-subtitle{
             font-family:$font-bold ;
             color: gray;
             font-size: 2rem;
             padding-bottom: 2.7rem;
+            @include media-breakpoint-down (md) {
+                font-size: 1.8rem;
+            }
+            @include media-breakpoint-down (sm) {
+                font-size: 1.3rem;
+            }
+            @media (max-width: 425px) {
+                font-size: 1rem;
+            }
         }
     }
 }
