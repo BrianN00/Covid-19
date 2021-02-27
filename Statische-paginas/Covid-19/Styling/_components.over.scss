@@ -1,25 +1,45 @@
 .c-over{
     background-color: $color-background;
-    font-family: $font-regular;
+    font-family: $font-medium;
     color: $color-darkblue;
-    height: 100rem;
+    // height: 100rem;
     &__title{
         &-text{
-            font-family: $font-regular;
             padding-top: 5rem;
+            font-size: 1.1rem;
+            @include media-breakpoint-down(sm){
+                font-size: 1rem;
+                padding-left: 2rem;
+                padding-top: 1rem;
+              }
+            @include media-breakpoint-down(xs){
+                font-size: .8rem;
+                padding-left: 2rem;
+                padding-top: 2rem;
+              }
         }
+
     }
 
 
 
 
     &__symptomen{
-        padding-left: 2rem;
+        padding-left: 1.5rem;
+        @include media-breakpoint-down(sm) {
+            font-size: .8rem;
+            
+          }
+
 
         &-belangrijkste{
-            padding-top: 4rem;
+            padding-top: 0rem;
             padding-left: 1.5rem;
             margin-bottom: -3rem;
+            @include media-breakpoint-down(sxs) {
+                padding-top: 2rem;
+                margin-bottom: -1rem;
+              }
         }
         &-huisarts{
             padding-top: 2rem;

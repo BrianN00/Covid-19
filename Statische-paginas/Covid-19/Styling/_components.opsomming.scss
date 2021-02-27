@@ -2,7 +2,15 @@
     line-height: 2rem;
     padding-top: 5rem;
     color: $color-lightblue;
+    font-family: $font-medium;
+    @include media-breakpoint-down(sm) {
+        font-size: .8rem;
+        padding-left: 2rem;
+        padding-top: 3rem;
+      }
+
     &__img{
         padding-right: 1rem;
     }
 }
+

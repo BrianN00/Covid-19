@@ -1,25 +1,24 @@
-.c-h2{
+.c-h3{
     padding-top: 3rem;
     font-family: $font-bold;
     color: $color-darkblue;
-    font-size: 2rem;
-    padding-left: 20rem;
+    font-size: 1.5rem;
+    padding-left: 22rem;
     @include media-breakpoint-down(md) {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
       @include media-breakpoint-down(sm) {
-        font-size: 1.2rem;
-        
+        font-size: 1.1rem;
       }
       @include media-breakpoint-down(xs){
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
     &__spacing{
         height: 165px;
         position: relative;
         @include media-breakpoint-down(sm) {
-          height: 100px;
-        }
+            height: 100px;
+          }
     }
     &__total{
         position: absolute;
@@ -28,9 +27,6 @@
         padding-left: 12rem;
         @include media-breakpoint-down(md) {
             padding-left: -18rem;
-          }
-          @include media-breakpoint-down(sm) {
-            left: -30rem;
           }
     }
     &__line{

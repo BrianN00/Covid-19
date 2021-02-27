@@ -22,18 +22,24 @@
     display: flex;
     align-items: flex-end;
     margin-top: 1rem;
+    @include media-breakpoint-down(xs){
+      display: none;
+      
+    }
     &-copy {
       font-family: HelveticaNeuCondensedBold;
       font-size: 17px;
       @include media-breakpoint-down(sm){
         font-size: .7rem;
       }
+
     }
     &-text{
       font-size: .9rem;
       @include media-breakpoint-down(sm){
         font-size: .6rem;
       }
+
     }
 
   }
@@ -41,7 +47,10 @@
     max-width: 154px;
     width: 100%;
     padding-top: 2rem;
-    
+    @include media-breakpoint-down(xs){
+      max-width: 140px;
+      padding-left: 2rem;
+    }
   }
 
   &__right {
@@ -54,6 +63,9 @@
     padding-bottom: .6rem;
     @include media-breakpoint-down(sm){
       font-size: .7rem;
+    }
+    @include media-breakpoint-down(xs){
+      padding-right: 2rem;
     }
     a {
       color: $color-white;
