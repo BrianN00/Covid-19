@@ -1,36 +1,36 @@
-.c-title{
-    padding-top: 7rem;
-    font-family: $font-bold;
-    color: $color-darkblue;
-    font-size: 3.2rem;
-    @include media-breakpoint-down(md) {
-        font-size: 2rem;
-      }
-    @include media-breakpoint-down(sm) {
-        font-size: 1.5rem;
-        padding-left: 2rem;
-      }
+// .c-title{
+//     padding-top: 7rem;
+//     font-family: $font-bold;
+//     color: $color-darkblue;
+//     font-size: 3.2rem;
+//     @include media-breakpoint-down(md) {
+//         font-size: 2rem;
+//       }
+//     @include media-breakpoint-down(sm) {
+//         font-size: 1.5rem;
+//         padding-left: 2rem;
+//       }
     
-    &__line{
-        border: 6px solid  $color-lightblue;
-        width: 1000rem;
-        margin-top: 1.5rem;
-        position: absolute;
-        @include media-breakpoint-down(sm) {
-            margin-left: 2rem;
-          }
-        &-img{
-            position: absolute;
-            top: -5rem;
-            left: 64rem;
+//     &__line{
+//         border: 6px solid  $color-lightblue;
+//         width: 1000rem;
+//         margin-top: 1.5rem;
+//         position: absolute;
+//         @include media-breakpoint-down(sm) {
+//             margin-left: 2rem;
+//           }
+//         &-img{
+//             position: absolute;
+//             top: -5rem;
+//             left: 64rem;
             
-        }
-    }
+//         }
+//     }
     
-}
+// }
 
 
-.c-h1{
+.c-h1right{
   padding-top: 7rem;
   font-family: $font-bold;
   color: $color-darkblue;
@@ -78,13 +78,16 @@
   }
   &__line{
       border: 6px solid  $color-lightblue;
+      background-color: $color-lightblue;
       width: 100%;
       margin-top: 1rem;
       position: absolute;
       right: 0;
       
+
       @include media-breakpoint-down(sm) {
         border: 5px solid  $color-lightblue;
+        background-color: $color-lightblue;
       }
       &-img{
         position: absolute;

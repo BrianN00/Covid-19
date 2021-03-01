@@ -1,18 +1,19 @@
-.c-h2{
-    padding-top: 3rem;
+.c-h1left{
+    padding-top: 7rem;
     font-family: $font-bold;
     color: $color-darkblue;
-    font-size: 2rem;
+    font-size: 3.2rem;
     padding-left: 20rem;
     @include media-breakpoint-down(md) {
-        font-size: 1.5rem;
+        font-size: 2.65rem;
+        padding-top: 5rem;
       }
       @include media-breakpoint-down(sm) {
-        font-size: 1.2rem;
+        font-size: 1.9rem;
         
       }
       @include media-breakpoint-down(xs){
-        font-size: 1.1rem;
+        font-size: 1.2rem;
       }
     &__spacing{
         height: 165px;
@@ -42,20 +43,4 @@
         left:0;
 
     }
-//     &__line{
-//         border: 3px solid  $color-lightblue;
-//         width: 36%;
-//         margin-top: 1rem;
-//         position: absolute;
-//         left: 0;
-//         @include media-breakpoint-down(lg) {
-//             width: 37%;
-//           }
-//           @include media-breakpoint-down(md) {
-//             width: 47%;
-//           }
-//           @include media-breakpoint-down(sm) {
-//             width: 69%;
-//           }
-//     }
 }
