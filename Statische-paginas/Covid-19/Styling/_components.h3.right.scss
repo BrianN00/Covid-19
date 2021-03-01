@@ -1,0 +1,64 @@
+.c-h3right{
+    padding-top: 7rem;
+    font-family: $font-bold;
+    color: $color-darkblue;
+    font-size: 1.5rem;
+    padding-right: 6rem;
+  
+    @include media-breakpoint-down(md) {
+        font-size: 1.3rem;
+        padding-right: 0rem;
+        padding-top: 5rem;
+      }
+      @include media-breakpoint-down(sm) {
+        font-size: 1.1rem;
+        
+      }
+      @include media-breakpoint-down(xs) {
+        font-size: 1rem;
+        padding-top: 3rem;
+      }
+    &__spacing{
+        height: 165px;
+        position: relative;
+        @include media-breakpoint-down(xs) {
+          height: 100px;
+        }
+    }
+    &__total{
+        position: absolute;
+        right: -32rem;
+        padding-right: 29rem;
+        @include media-breakpoint-down(lg) {
+          padding-right: 18rem;
+        }
+        @include media-breakpoint-down(md) {
+          padding-right: 0rem;
+          right: 0rem;
+        }
+        
+    }
+    &__line{
+        border: 6px solid  $color-lightblue;
+        background-color: $color-lightblue;
+        width: 100%;
+        margin-top: 1rem;
+        position: absolute;
+        right: 0;
+        
+  
+        @include media-breakpoint-down(sm) {
+          border: 5px solid  $color-lightblue;
+          background-color: $color-lightblue;
+        }
+        &-img{
+          position: absolute;
+          top: -5rem;
+          left: 64rem;
+          @include media-breakpoint-down(md) {
+            display: none;
+          }
+        }
+  
+    }
+  }

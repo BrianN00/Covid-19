@@ -44,6 +44,12 @@
 
     }
     &__img{
-        
+        padding-top: 6rem;
+        @include media-breakpoint-down(sm) {
+          padding-top: 3rem;
+        }
+        @include media-breakpoint-down(md) {
+          padding-top: 4rem;
+        }
     }
 }
