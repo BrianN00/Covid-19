@@ -12082,6 +12082,7 @@ li {
 
 body {
   font-size: 1.2rem;
+  overflow-x: hidden;
 }
 
 .c-home {
@@ -12676,12 +12677,22 @@ ul.dropdown-menu.showli {
   border-radius: 3px;
 }
 
+@media (max-width: 1199.98px) {
+  .c-home__article {
+    height: 25rem;
+  }
+}
+
 @media (max-width: 991.98px) {
   .c-home__article {
     margin-right: 0rem;
     margin-left: 2.5rem;
+    padding-left: 1rem;
     height: 25rem;
     text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -12689,20 +12700,21 @@ ul.dropdown-menu.showli {
   .c-home__article {
     margin-left: 5rem;
     margin-right: 0rem;
+    height: 23rem;
   }
 }
 
 @media (max-width: 575.98px) {
   .c-home__article {
     margin-left: 5rem;
-    height: 20rem;
+    height: 19rem;
     padding-left: 1rem;
   }
 }
 
 @media (max-width: 425px) {
   .c-home__article {
-    margin-left: 4rem;
+    margin-left: 5rem;
     height: 14rem;
   }
 }
@@ -12864,13 +12876,13 @@ ul.dropdown-menu.showli {
   padding-top: 0rem;
   padding-left: 1.5rem;
   margin-bottom: -3rem;
-  padding-top: 2rem;
-  margin-bottom: -1rem;
 }
 
-.c-over__symptomen-huisarts {
-  padding-top: 2rem;
-  padding-left: 1.5rem;
+@media (max-width: 575.98px) {
+  .c-over__symptomen-belangrijkste {
+    padding-top: 2rem;
+    margin-bottom: -1rem;
+  }
 }
 
 .c-over__symptomen-img {
@@ -13169,5 +13181,11 @@ ul.dropdown-menu.showli {
   margin-top: 1rem;
   position: absolute;
   left: 0;
+}
+
+.c-h4 {
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=screen.css.map */

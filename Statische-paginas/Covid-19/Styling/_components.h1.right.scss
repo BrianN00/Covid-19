@@ -82,6 +82,7 @@
       margin-top: 1rem;
       position: absolute;
       right: 0;
+      
       @include media-breakpoint-down(sm) {
         border: 5px solid  $color-lightblue;
       }

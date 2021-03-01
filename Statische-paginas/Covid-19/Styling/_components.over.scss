@@ -36,15 +36,15 @@
             padding-top: 0rem;
             padding-left: 1.5rem;
             margin-bottom: -3rem;
-            @include media-breakpoint-down(sxs) {
+            @include media-breakpoint-down(xs) {
                 padding-top: 2rem;
                 margin-bottom: -1rem;
               }
         }
-        &-huisarts{
-            padding-top: 2rem;
-            padding-left: 1.5rem;
-        }
+        // &-huisarts{
+        //     padding-top: 2rem;
+        //     padding-left: 1.5rem;
+        // }
         &-img{
             max-width: 16rem;
             max-height: 18rem;
