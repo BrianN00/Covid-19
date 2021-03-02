@@ -13212,7 +13212,6 @@ ul.dropdown-menu.showli {
   position: absolute;
   top: -8rem;
   left: 48rem;
-  max-width: 30%;
 }
 
 @media (max-width: 991.98px) {

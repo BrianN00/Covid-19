@@ -87,7 +87,8 @@
           position: absolute;
           top: -8rem;
           left: 48rem;
-          max-width: 30% ;
+          // max-width: 20% ;
+          
           @include media-breakpoint-down(md) {
             display: none;
           }
