@@ -1,0 +1,9 @@
+.c-imageaside{
+    padding-left: 46rem;
+    max-width: 85%;
+    @include media-breakpoint-down(xxl) {
+        max-width: 85%;
+      }
+}
+
+
