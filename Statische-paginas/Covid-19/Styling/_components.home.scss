@@ -1,0 +1,42 @@
+.c-home{
+    background-color: $color-background;
+    
+    &__map{
+        background-image: url("../Media/map.png");
+        height: 66rem;
+        background-repeat: no-repeat;
+        z-index: -1;
+        
+    }
+    &__filters{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: .3rem 1rem;
+        padding-left: 8rem;
+        @include media-breakpoint-down(lg){
+            padding-left: 5rem;
+        }
+        @include media-breakpoint-down(md){
+            padding-left: 3rem;
+        }
+    }
+
+
+    &__info{
+        padding-left: 8rem;
+        padding-right: 8rem;
+        margin-bottom: 5rem;
+        @include media-breakpoint-down(lg){
+            padding-left: 5rem;
+        }
+        @include media-breakpoint-down(md){
+            padding-left: 3rem;
+        }
+
+        &-graph{
+            padding-left: -2rem;
+        }
+    }
+    
+}

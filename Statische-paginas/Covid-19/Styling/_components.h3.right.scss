@@ -1,0 +1,152 @@
+.c-h3right{
+
+    &__text{
+    padding-top: 7rem;
+    font-family: $font-bold;
+    color: $color-darkblue;
+    font-size: 1.5rem;
+    padding-left:43rem;
+        @include media-breakpoint-down(xxl) {
+            padding-left:54rem;
+        }
+        @include media-breakpoint-down(xl) {
+            padding-left:42rem;
+        }
+        @include media-breakpoint-down(lg) {
+            padding-left:35.3rem;
+        }
+        @include media-breakpoint-down(md) {
+            padding-left:27rem;
+            font-size: 1.3rem;
+            padding-top: 5rem;
+        }
+        @include media-breakpoint-down(sm) {
+            padding-left:20rem;
+            font-size: 1.1rem;
+
+        }
+        @include media-breakpoint-down(xs) {
+            padding-left:20rem;
+            font-size: 1rem;
+            padding-top: 3rem;
+        }
+        @media (max-width: 483px) {
+            padding-left: 16rem;
+        }
+        @media (max-width: 425px) {
+            padding-left: 14rem;
+        }
+        @media (max-width: 380px) {
+            padding-left: 13.2rem;
+        }
+        @media (max-width: 367px) {
+            padding-left: 12.5rem;
+        }
+    }
+
+    &__spacing{
+       height: 165px;
+        @include media-breakpoint-down(xs) {
+          height: 100px;
+        }
+    }
+    // &__totalline{
+        // padding-left: 10rem;
+        // position: absolute;
+        // width: 90%;
+        // right: 0;
+    // }
+    &__line{
+        border: 3px solid  $color-lightblue;
+        background-color: $color-lightblue;
+        width: 42%;
+        margin-top: 1rem;
+        position: absolute;
+        right: 0;
+        @include media-breakpoint-down(xl) {
+           width: 43% ;
+        }
+        @include media-breakpoint-down(lg) {
+            width: 41% ;
+         }
+         @include media-breakpoint-down(md) {
+            width: 41% ;
+         }
+         @include media-breakpoint-down(sm) {
+            width: 40% ;
+            margin-top: 0.3rem;
+         }
+         @include media-breakpoint-down(xs) {
+            width: 40% ;
+         }
+         @media (max-width: 425px) {
+            
+        }
+    }
+}
+
+
+// .c-h3right{
+//     padding-top: 7rem;
+//     font-family: $font-bold;
+//     color: $color-darkblue;
+//     font-size: 1.5rem;
+//     padding-right: 6rem;
+  
+//     @include media-breakpoint-down(md) {
+//         font-size: 1.3rem;
+//         padding-right: 0rem;
+//         padding-top: 5rem;
+//       }
+//       @include media-breakpoint-down(sm) {
+//         font-size: 1.1rem;
+        
+//       }
+//       @include media-breakpoint-down(xs) {
+//         font-size: 1rem;
+//         padding-top: 3rem;
+//       }
+//     &__spacing{
+//         height: 165px;
+//         position: relative;
+//         @include media-breakpoint-down(xs) {
+//           height: 100px;
+//         }
+//     }
+//     &__total{
+//         position: absolute;
+//         right: -32rem;
+//         padding-right: 29rem;
+//         @include media-breakpoint-down(lg) {
+//           padding-right: 18rem;
+//         }
+//         @include media-breakpoint-down(md) {
+//           padding-right: 0rem;
+//           right: 0rem;
+//         }
+        
+//     }
+//     &__line{
+//         border: 6px solid  $color-lightblue;
+//         background-color: $color-lightblue;
+//         width: 100%;
+//         margin-top: 1rem;
+//         position: absolute;
+//         right: 0;
+        
+  
+//         @include media-breakpoint-down(sm) {
+//           border: 5px solid  $color-lightblue;
+//           background-color: $color-lightblue;
+//         }
+//         &-img{
+//           position: absolute;
+//           top: -5rem;
+//           left: 64rem;
+//           @include media-breakpoint-down(md) {
+//             display: none;
+//           }
+//         }
+  
+//     }
+//   }

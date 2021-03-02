@@ -52,8 +52,15 @@
 
 
   &__items {
-    max-width: 673px;
-    font-size: 19px;
+    max-width: 673px!important;
+    padding-left: 2rem;
+    font-size: 22px;
+    @include media-breakpoint-down(lg){
+      font-size: 18px;
+    }
+    @include media-breakpoint-down(md){
+      font-size: 22px;
+    }
   }
   &__logo {
     max-width: 328px;
@@ -61,8 +68,8 @@
 
   @include media-breakpoint-down(md){
     width: 300px;
-    height: 100vh;
-    background-color: rgba(black, 0.75);
+    height: 110vh;
+    background-color: rgba($color-darkblue, 0.75);
     position: fixed;
     top: 0;
     right: 0;
@@ -72,6 +79,8 @@
     text-align: center;
     transform: translateX(300px);
     transition: transform 0.5s ease;
+ 
+    z-index: 1;
   }
 
 }
@@ -87,10 +96,12 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  z-index: 1;
+  z-index: 3;
 
   @include media-breakpoint-down (md){
     align-items: flex-end;
+    color: white;
+    
   }
  }
 
@@ -135,7 +146,7 @@
   // display: block;
   margin-bottom: 5px;
   display: none;
-  z-index: 1;
+  z-index: 2;
   position: relative;
   transition: all 0.5s ease;
   transform-origin: 5px 0px;
@@ -151,7 +162,7 @@
 .c-nav__link {
   color: $color-blue;
   font-weight: 700;
-  font-family: HelveticaNeuCondensedBold;
+  font-family: $font-bold;
   &:hover,
   &:active,
   &--active {

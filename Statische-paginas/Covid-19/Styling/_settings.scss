@@ -2,6 +2,9 @@ $color-white: #fff;
 $color-blue: #3279a6;
 $color-lightblue: #59b5d9;
 $color-darkblue: #094173;
+$color-background: #FAFEFF;
+
+
 
 @font-face {
   font-family: HelveticaNeuCondensedBold;
@@ -19,7 +22,7 @@ $color-darkblue: #094173;
 
 $font-regular: HelveticaNeueCyr-Roman;
 $font-medium: HelveticaNeuMedium;
-
+$font-bold: HelveticaNeuCondensedBold;
 
 $grid-breakpoints: (
   xs: 0,
@@ -31,6 +34,7 @@ $grid-breakpoints: (
 ) !default;
 
 $container-max-widths: (
+  // xs: 360,
   sm: 540px,
   md: 720px,
   lg: 960px,

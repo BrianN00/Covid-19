@@ -1,0 +1,18 @@
+
+.c-h4{
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    @include media-breakpoint-down(md) {
+        width: 100%;
+    }
+    @include media-breakpoint-down(sm) {
+        font-size: .8rem;
+        padding-left: 2rem;
+        line-height: 1.1rem;
+        width: 90%;
+      }
+      @include media-breakpoint-down(sm) {
+        padding-top: 3rem;
+      }
+}
