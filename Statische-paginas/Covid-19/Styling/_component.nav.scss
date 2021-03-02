@@ -167,7 +167,7 @@
   &:active,
   &--active {
     text-decoration: none;
-    color: $color-lightblue;
+    color: $color-darkblue;
   }
   @include media-breakpoint-down(md){
     color: $color-white;

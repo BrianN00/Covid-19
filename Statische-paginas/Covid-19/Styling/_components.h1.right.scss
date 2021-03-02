@@ -83,11 +83,12 @@
       margin-top: 1rem;
       position: absolute;
       right: 0;
-      
+
 
       @include media-breakpoint-down(sm) {
         border: 5px solid  $color-lightblue;
         background-color: $color-lightblue;
+        margin-top: 0.3rem;
       }
       &-img{
         position: absolute;

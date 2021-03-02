@@ -36,22 +36,8 @@
         margin-top: 1rem;
         position: absolute;
         left:0;
-
+        @include media-breakpoint-down(sm) {
+          margin-top: 0.3rem;
+        }
     }
-//     &__line{
-//         border: 3px solid  $color-lightblue;
-//         width: 36%;
-//         margin-top: 1rem;
-//         position: absolute;
-//         left: 0;
-//         @include media-breakpoint-down(lg) {
-//             width: 37%;
-//           }
-//           @include media-breakpoint-down(md) {
-//             width: 47%;
-//           }
-//           @include media-breakpoint-down(sm) {
-//             width: 69%;
-//           }
-//     }
 }
