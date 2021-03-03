@@ -25,7 +25,7 @@
             margin-top: 0.3rem;
          }
          @include media-breakpoint-down(xs) {
-            width: 90%;
+            
          }
          @media (max-width: 425px) {
             
@@ -41,8 +41,17 @@
             top: -3rem;
              }
             @include media-breakpoint-down(md) {
-              display: none;
+            top: -2.4rem;
             }
+            @include media-breakpoint-down(sm) {
+              top: -2rem;
+              }
+              @include media-breakpoint-down(xs) {
+                top: -1.5rem;
+                }
+                @media (max-width: 410px) {
+                  left: -1rem;
+                }
           }
     }
 }

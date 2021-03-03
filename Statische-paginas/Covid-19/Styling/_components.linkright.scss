@@ -5,4 +5,33 @@
     &:hover{
         color:$color-lightblue;
     }
+    @include media-breakpoint-down(lg){
+        padding-left: 35rem;
+    }
+
+    @include media-breakpoint-down(md){
+        padding-left: 27rem;
+        font-size: .8rem ;
+    }
+    @include media-breakpoint-down(sm){
+        font-size: .6rem ;
+        padding-left: 20rem;
+    }
+    @include media-breakpoint-down(xs) {
+        padding-left: 19rem;
+        font-size: .5rem ;
+      }
+      @media (max-width: 483px) {
+        padding-left: 16rem;
+        font-size: .4rem ;
+    }
+    @media (max-width: 425px) {
+        padding-left: 14rem;
+    }
+    @media (max-width: 380px) {
+        padding-left: 13.2rem;
+    }
+    @media (max-width: 367px) {
+        padding-left: 12.5rem;
+    }
 }

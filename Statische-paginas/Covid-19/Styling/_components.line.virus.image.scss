@@ -16,6 +16,35 @@
       padding-left:45rem;
       padding-bottom: 1rem;
       max-width: 98%;
+      @include media-breakpoint-down(lg) {
+        max-width:100%;
+        padding-left: 36rem;
+        }
+        @include media-breakpoint-down(md) {
+          max-width:99%;
+          padding-left: 27rem;
+          }
+          @include media-breakpoint-down(sm) {
+          max-width:110%;
+          padding-left: 21rem;
+            
+         }
+         @include media-breakpoint-down(xs) {
+          padding-left: 18rem;
+          max-width:100%;
+         }
+          @media (max-width: 483px) {
+          padding-left: 16rem;
+          }
+          @media (max-width: 425px) {
+            padding-left: 14rem;
+          }
+          @media (max-width: 380px) {
+            padding-left: 13.2rem;
+          }
+          @media (max-width: 367px) {
+            padding-left: 12.5rem;
+          }
     }
     &__line{
         border: 5px solid  $color-lightblue;
@@ -38,7 +67,7 @@
             margin-top: 0.3rem;
          }
          @include media-breakpoint-down(xs) {
-            width: 90%;
+            
          }
          @media (max-width: 425px) {
             
@@ -49,7 +78,10 @@
             top: -2rem;
             left: 22rem;
             max-width: 15% ;
-            
+
+            @include media-breakpoint-down(lg) {
+            top: -1.5rem;
+            }
             @include media-breakpoint-down(md) {
               display: none;
             }

@@ -88,7 +88,9 @@
             top: -8rem;
             left: 48rem;
             // max-width: 20% ;
-            
+            @include media-breakpoint-down(lg) {
+              left: 38rem;
+            }
             @include media-breakpoint-down(md) {
               display: none;
             }

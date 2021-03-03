@@ -83,16 +83,7 @@
        @media (max-width: 425px) {
           
       }
-      &-img{
-          position: absolute;
-          top: -8rem;
-          left: 48rem;
-          // max-width: 20% ;
-          
-          @include media-breakpoint-down(md) {
-            display: none;
-          }
-        }
+
   }
 }
 

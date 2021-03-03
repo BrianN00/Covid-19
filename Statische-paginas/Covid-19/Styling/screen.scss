@@ -32,7 +32,7 @@
 
 @import "components.h2.left.scss";
 @import "components.h2.right.scss";
-@import "components.h2.right.novirus.scss";
+@import "components.h2.right.virus.scss";
 @import "components.h2.right.image.scss";
 
 @import "components.opsomming.scss";
@@ -44,6 +44,7 @@
 
 @import "components.h3.left.scss";
 @import "components.h3.right.scss";
+@import "components.h3.right.long.scss";
 
 @import "components.h4.scss";
 @import "components.h4.right.long.scss";
@@ -56,3 +57,5 @@
 
 @import "components.virus.zijlijn.scss";
 @import "components.image.middle.scss";
+
+@import "components.videoframe.scss";
