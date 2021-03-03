@@ -1,10 +1,10 @@
 .c-h1right{
 
   &__text{
-  padding-top: 3rem;
+  padding-top: 7rem;
   font-family: $font-bold;
   color: $color-darkblue;
-  font-size: 2rem;
+  font-size: 3.2rem;
   padding-left: 0rem;
       @include media-breakpoint-down(xxl) {
           
@@ -17,17 +17,17 @@
       }
       @include media-breakpoint-down(md) {
           
-          font-size: 1.5rem;
-          padding-top: 5rem;
+        font-size: 2.65rem;
+        padding-top: 5rem;
       }
       @include media-breakpoint-down(sm) {
           
-          font-size: 1.2rem;
+        font-size: 1.9rem;
 
       }
       @include media-breakpoint-down(xs) {
           
-          font-size: 1.1rem;
+        font-size: 1.2rem;
           padding-top: 3rem;
           padding-left: 1rem;
       }
@@ -85,8 +85,8 @@
       }
       &-img{
           position: absolute;
-          top: -8rem;
-          left: 48rem;
+          top: -5rem;
+          left: 68rem;
           // max-width: 20% ;
           
           @include media-breakpoint-down(md) {
