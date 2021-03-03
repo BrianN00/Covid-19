@@ -1,0 +1,58 @@
+.c-linevirusimage{
+      
+    &__spacing{
+       height: 165px;
+        @include media-breakpoint-down(xs) {
+          height: 100px;
+        }
+    }
+    // &__totalline{
+        // padding-left: 10rem;
+        // position: absolute;
+        // width: 90%;
+        // right: 0;
+    // }
+    &__image{
+      padding-left:45rem;
+      padding-bottom: 1rem;
+      max-width: 98%;
+    }
+    &__line{
+        border: 5px solid  $color-lightblue;
+        background-color: $color-lightblue;
+        width: 40%;
+        margin-top: 1rem;
+        position: absolute;
+        right: 0;
+        @include media-breakpoint-down(xl) {
+          width: 40%;
+        }
+        @include media-breakpoint-down(lg) {
+            width:40%;
+         }
+         @include media-breakpoint-down(md) {
+            
+         }
+         @include media-breakpoint-down(sm) {
+            
+            margin-top: 0.3rem;
+         }
+         @include media-breakpoint-down(xs) {
+            width: 90%;
+         }
+         @media (max-width: 425px) {
+            
+        }
+
+        &-img{
+            position: absolute;
+            top: -2rem;
+            left: 22rem;
+            max-width: 15% ;
+            
+            @include media-breakpoint-down(md) {
+              display: none;
+            }
+          }
+    }
+}

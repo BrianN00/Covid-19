@@ -1,0 +1,8 @@
+.c-linkright{
+    font-family: $font-bold;
+    color: $color-darkblue;
+    padding-left: 42rem;
+    &:hover{
+        color:$color-lightblue;
+    }
+}

@@ -1,0 +1,7 @@
+.c-linkleft{
+    font-family: $font-bold;
+    color: $color-darkblue;
+    &:hover{
+        color:$color-lightblue;
+    }
+}
