@@ -1,0 +1,8 @@
+.c-imagemiddle{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    @include media-breakpoint-down(md){
+        display: none;
+    }
+}
